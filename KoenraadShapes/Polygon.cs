@@ -4,13 +4,13 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace complexe_voorbeeld_inheritance_geometry
+namespace KoenraadShapes
 {
     // polygon = veelhoek
-    // base class voor rechthoek en driehoek
+    // base public class voor rechthoek en driehoek
     // Polygon krijgt hierdoor automatisch al
     // de property Color
-    class Polygon : Shape
+    public class Polygon : Shape
     {
         // alle veelhoeken krijgen de property Height
         // automatisch heeft Polygon ook al de Color property
@@ -19,7 +19,7 @@ namespace complexe_voorbeeld_inheritance_geometry
 
         // constructor voor Polygon
         // base() duidt hier op de constructor van
-        // de base class, waarbij je in dezelfde 
+        // de base public class, waarbij je in dezelfde 
         // volgorde als bij die constructor
         // de parameters correct moet invullen
         public Polygon(int height, string color) : base(color)

@@ -4,9 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace complexe_voorbeeld_inheritance_geometry
+namespace KoenraadShapes
 {
-    class Triangle : Polygon
+    public class Triangle : Polygon
     {
         public int Base { get; set; }
         public int Side2 { get; set; }

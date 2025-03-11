@@ -4,10 +4,10 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace complexe_voorbeeld_inheritance_geometry
+namespace KoenraadShapes
 {
-    // base class shape (vorm)
-    class Shape
+    // base public class shape (vorm)
+    public class Shape
     {
         // iedere shape/vorm heeft een kleur
         public string Color { get; set; }
